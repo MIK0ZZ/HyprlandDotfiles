@@ -1,0 +1,167 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    
+    border-radius: 10px;
+    /*
+    border-style: solid;
+    */
+    
+    
+}
+
+tooltip {
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    border-radius: 10px;
+    
+    
+}
+
+tooltip label{
+    color: #161616;
+}
+
+
+/*
+#workspaces button {
+    
+    color:  #161616;
+    
+}
+*/
+
+#workspaces button.active {
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    opacity: 0.8;
+    
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    background: #eba0ac;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #d9ff00;
+}
+
+#workspaces button:hover {
+    color: #ffffff;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    opacity: 0.8;
+
+}
+
+#custom-launch_wofi,
+#window,
+#cpu,
+#disk,
+#custom-updates,
+#memory,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#workspaces,
+#backlight {
+    opacity: 1;
+    padding: 0px 10px;
+}
+
+
+
+#custom-launch_wofi {
+    margin-top: 8px;
+}
+
+
+#tray {
+    
+    
+    opacity: 0.8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+#clock {
+    font-size: 14;
+    margin-left: 10px;
+    margin-bottom: 0px;
+
+
+}
+
+#temperature.critical {
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+#window {
+    margin-left: 4px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 16;
+    
+
+}
+
+#custom-launch_wofi {
+    color: #ffffff;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    font-size: 16;
+
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 10px;
+/*
+    animation-name: colores;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+*/
+}
+
+@keyframes colores {
+    0% {
+        color: #49c249;
+    }
+
+
+    33% {
+        color: #d369d3;
+    }
+
+    66% {
+        color: #d31b1b;
+    }
+
+    100% {
+        color: #49c249;
+    }
+
+
+}
+
